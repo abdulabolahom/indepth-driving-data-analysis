@@ -1,2 +1,5 @@
 # macOS Finder junk
 .DS_Store
+
+# raw source data (never commit originals)
+data/raw/
