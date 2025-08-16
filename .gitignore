@@ -6,3 +6,7 @@ data/raw/
 
 # local virtual environment
 .venv/
+
+# Python/Jupyter caches
+__pycache__/
+.ipynb_checkpoints/
