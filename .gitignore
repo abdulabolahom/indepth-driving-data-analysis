@@ -3,3 +3,6 @@
 
 # raw source data (never commit originals)
 data/raw/
+
+# local virtual environment
+.venv/
