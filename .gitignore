@@ -10,3 +10,13 @@ data/raw/
 # Python/Jupyter caches
 __pycache__/
 .ipynb_checkpoints/
+
+# VS Code settings
+.vscode/*
+!.vscode/settings.json
+
+# Excel temp/lock files
+~$*.xls*
+*.tmp
+
+data/
