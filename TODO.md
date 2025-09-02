@@ -1,5 +1,12 @@
 # TODO
 
+Restart ritual:
+- Open repo, pick ONE UI (VS Code OR browser).
+- Activate venv (if using terminal).
+- Open 01_explore.ipynb → run Bootstrap.
+- Imports → Config → Load → Validate → Sanity check.
+- Work; commit at natural checkpoints.
+
 ## Current session
 - Repo scaffolded (README, .gitignore, LICENSE, CONTRIBUTING.md)
 - Linked GitHub Desktop + VS Code
@@ -40,3 +47,5 @@
 - Optional: branch practice — create `feature/ingest-pipeline` and open a small PR to merge back to main.
 - [ ] Add config dict wrapper for Journey Event loader (next session)
 - [ ] Re-run validator through wrapper to confirm same results
+
+Next: run Imports + Config in 01_explore.ipynb
