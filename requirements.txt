@@ -106,3 +106,5 @@ webencodings==0.5.1
 websocket-client==1.8.0
 widgetsnbextension==4.0.14
 zipp==3.23.0
+matplotlib==3.9.4
+matplotlib-inline==0.1.7
