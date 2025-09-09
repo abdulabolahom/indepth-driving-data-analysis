@@ -28,3 +28,12 @@
 | Direction              | float     | Bearing at event (degrees from North)                  | Maybe           | Expected 0–359; may be noisy when stationary |
 | Altitude               | float/int | Elevation above sea level                              | Maybe           | Units TBD (meters?); may be missing |
 | GPS Accuracy           | float     | Reported GPS accuracy error                            | Maybe           | Lower is better; scale/units TBD |
+
+
+| Column name           | Data type | Meaning                                   | Keep/Maybe/Drop | Notes |
+|-----------------------|-----------|-------------------------------------------|-----------------|-------|
+| Country               | string    | Country code at event location            | Maybe           | Appears as 'GBR' in sample; useful for units/context |
+| City                  | string    | City name at event location               | Maybe           | Uppercase values like 'BRADFORD' |
+| Road Speed Limit      | int       | Posted speed limit at location            | Keep            | Integer; likely mph in UK; compare to Horizontal Speed |
+| Event Type ID         | int       | Numeric code for event type               | Maybe           | Duplicate of Event Type label; use for joins/mapping |
+| Delta Trip Distance   | int       | Distance added since previous event       | Keep            | 0 for idle ticks; units TBD (m or meters?) |
