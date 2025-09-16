@@ -108,3 +108,5 @@ widgetsnbextension==4.0.14
 zipp==3.23.0
 matplotlib==3.9.4
 matplotlib-inline==0.1.7
+folium==0.20.0
+folium==0.20.0
