@@ -1,5 +1,16 @@
 # TODO
 
+
+Terminal Commands to start:
+
+cd ~/Documents/GitHub/Projects/indepth-driving-data-analysis/
+source .venv/bin/activate
+jupyter notebook
+
+
+
+
+
 Restart ritual:
 - Open repo, pick ONE UI (VS Code OR browser).
 - Activate venv (if using terminal).

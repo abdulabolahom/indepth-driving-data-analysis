@@ -14,3 +14,17 @@ def guess_header_row(xlsx_path, sheet_name, look_rows=60):
         scores.append((i, int(nonnull), int(texty), int(uniq)))
     scores.sort(key=lambda t: (t[1], t[2], t[3]), reverse=True)
     return scores[0][0]
+
+def audit_columns(df, cols):
+    rows = []
+    for c in cols:
+        s = df[c]
+        rows.append({
+            "col": c,
+            "dtype": str(s.dtype),
+            "nulls": int(s.isna().sum()),
+            "min": s.min(),
+            "max": s.max(),
+            "n_unique": s.nunique()
+        })
+    return pd.DataFrame(rows)
