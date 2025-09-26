@@ -110,3 +110,4 @@ matplotlib==3.9.4
 matplotlib-inline==0.1.7
 folium==0.20.0
 folium==0.20.0
+duckdb

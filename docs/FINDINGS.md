@@ -48,3 +48,11 @@ Human/Story mode
   - Speeding intensity
   - Harsh accel/decel
   - Most visited roads
+
+
+## 23/Sep
+	•	Data shape: Events ~23,405 rows; 1Hz ~1,247,282 rows; 1,420 journeys.
+	•	Date range (events): 2024-11-28 → 2025-07-28.
+	•	Overall speeding (raw 1Hz): ~1.9% events; max overspeed ~64.6 (likely map-projection/parking-lot misreads).
+	•	Episodes: contiguous overspeed segments now available (duration & max over).
+	•	Known data quirks: bogus limits (0/5/10 mph) and motorway flyovers → filter thresholds/persistence before scoring.
